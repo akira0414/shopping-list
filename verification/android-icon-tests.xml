@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.doujin.shoppinglist.LauncherIconTest" tests="3" failures="0" errors="0" skipped="0" time="1.64" timestamp="2026-10-24T05:21:21" hostname="localhost">
+  <properties>
+    <property name="device" value="Pixel_9a(AVD) - 16" />
+    <property name="flavor" value="" />
+    <property name="project" value=":app" />
+  </properties>
+  <testcase name="silhouetteIsInsideAdaptiveSafeArea" classname="com.doujin.shoppinglist.LauncherIconTest" time="0.03" />
+  <testcase name="installedNameAndMonochromeMatchForeground" classname="com.doujin.shoppinglist.LauncherIconTest" time="0.007" />
+  <testcase name="useAppContext" classname="com.getcapacitor.myapp.ExampleInstrumentedTest" time="0.035" />
+</testsuite>

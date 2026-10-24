@@ -1,0 +1,14 @@
+{
+  "applicationId": "com.doujin.shoppinglist.preview",
+  "name": "場購清單預覽版",
+  "version": "1.5.0-preview.1",
+  "versionCode": 4,
+  "build": "passed",
+  "signature": "verified",
+  "webAssets": "match latest dist",
+  "isolatedProviders": true,
+  "emulatorStarted": false,
+  "deviceTest": "not run",
+  "bytes": 7433397,
+  "sha256": "b7cfd459acc151592b17e1242696ec566925e7dca6f97d3f768834709f17bf94"
+}

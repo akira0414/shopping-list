@@ -1,0 +1,47 @@
+module.exports = {
+  events: [
+    {
+      id: "e1",
+      name: "CWT 測試場次",
+      date: "",
+      location: "",
+      budget: 5000,
+      markers: [{ id: "m1", eventId: "e1", boothNumber: "A01", x: 30, y: 40 }],
+    },
+    { id: "e2", name: "第二場次", date: "", location: "", budget: 2000 },
+  ],
+  categories: [{ id: "c1", name: "新刊", color: "#6696C4" }],
+  items: [
+    {
+      id: "i0",
+      name: "已購新刊",
+      eventId: "e1",
+      categoryId: "c1",
+      boothNumber: "A01",
+      price: 100,
+      status: "purchased",
+    },
+    {
+      id: "i1",
+      name: "預定周邊",
+      eventId: "e1",
+      categoryId: null,
+      boothNumber: "A01",
+      price: 200,
+      status: "pending",
+    },
+    {
+      id: "i2",
+      name: "未定商品",
+      eventId: "e1",
+      categoryId: null,
+      boothNumber: "",
+      price: 50,
+      status: "pending",
+    },
+  ],
+  currentEventId: "e1",
+  themeId: "default",
+  defaultBudget: 5000,
+  boothOrder: { e1: ["A01", "未分類攤位"] },
+};

@@ -1,0 +1,13 @@
+✔ backup round-trip preserves images, markers, order and settings (5.6712ms)
+✔ partial, duplicate or foreign reorder cannot delete hidden items (27.9184ms)
+✔ reject unsupported, malformed and unrelated backups (1.0363ms)
+✔ legacy repair preserves records and resolves stale category/current event (0.2608ms)
+✔ reject invalid names, money, statuses, markers and order (1.1903ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 126.5971

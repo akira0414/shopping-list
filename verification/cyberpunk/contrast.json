@@ -1,0 +1,101 @@
+{
+  "pairs": [
+    {
+      "foreground": "#EEF1FF",
+      "background": "#0D1020",
+      "ratio": 16.78,
+      "passes": true
+    },
+    {
+      "foreground": "#ABB5D1",
+      "background": "#0D1020",
+      "ratio": 9.23,
+      "passes": true
+    },
+    {
+      "foreground": "#B39DFF",
+      "background": "#0D1020",
+      "ratio": 8.26,
+      "passes": true
+    },
+    {
+      "foreground": "#67DDE5",
+      "background": "#0D1020",
+      "ratio": 11.74,
+      "passes": true
+    },
+    {
+      "foreground": "#FF9BAA",
+      "background": "#0D1020",
+      "ratio": 9.46,
+      "passes": true
+    },
+    {
+      "foreground": "#EEF1FF",
+      "background": "#171C30",
+      "ratio": 14.99,
+      "passes": true
+    },
+    {
+      "foreground": "#ABB5D1",
+      "background": "#171C30",
+      "ratio": 8.24,
+      "passes": true
+    },
+    {
+      "foreground": "#B39DFF",
+      "background": "#171C30",
+      "ratio": 7.38,
+      "passes": true
+    },
+    {
+      "foreground": "#67DDE5",
+      "background": "#171C30",
+      "ratio": 10.48,
+      "passes": true
+    },
+    {
+      "foreground": "#FF9BAA",
+      "background": "#171C30",
+      "ratio": 8.45,
+      "passes": true
+    },
+    {
+      "foreground": "#EEF1FF",
+      "background": "#202740",
+      "ratio": 13.09,
+      "passes": true
+    },
+    {
+      "foreground": "#ABB5D1",
+      "background": "#202740",
+      "ratio": 7.2,
+      "passes": true
+    },
+    {
+      "foreground": "#B39DFF",
+      "background": "#202740",
+      "ratio": 6.44,
+      "passes": true
+    },
+    {
+      "foreground": "#67DDE5",
+      "background": "#202740",
+      "ratio": 9.15,
+      "passes": true
+    },
+    {
+      "foreground": "#FF9BAA",
+      "background": "#202740",
+      "ratio": 7.38,
+      "passes": true
+    }
+  ],
+  "starFilterSelectedException": {
+    "foreground": "#B58900",
+    "background": "#4A3B24",
+    "ratio": 3.37,
+    "minimum": 4.5,
+    "keptByUserRequest": true
+  }
+}

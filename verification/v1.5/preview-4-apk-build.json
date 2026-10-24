@@ -1,0 +1,19 @@
+{
+  "version": "1.5.0-preview.4",
+  "versionCode": 7,
+  "label": "場購清單",
+  "applicationId": "com.doujin.shoppinglist.preview",
+  "signature": "verified; same certificate as previous preview",
+  "build": "passed",
+  "webAssets": "all match latest dist",
+  "included": [
+    "category editing",
+    "deep-night neon theme",
+    "theme check icon removed"
+  ],
+  "categoryEditCheck": "passed",
+  "cyberpunkBrowserGroups": 9,
+  "emulatorStarted": false,
+  "deviceTests": "not run",
+  "sha256": "8dde8313a290be67dcdf48bf90bad9ce6911ce841fda6334e931abc574fe09a4"
+}

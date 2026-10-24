@@ -1,0 +1,24 @@
+vite v8.3.5 building client environment for production...
+transforming...
+✓ 38 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.47 kB │ gzip:   0.32 kB
+dist/assets/index-CTslL0na.css   47.30 kB │ gzip:   9.83 kB
+dist/assets/esm-LhHs9rTe.js       0.33 kB │ gzip:   0.23 kB
+dist/assets/web-Dd4qVeeV.js       0.36 kB │ gzip:   0.24 kB
+dist/assets/esm-97cTnhco.js       1.29 kB │ gzip:   0.69 kB
+dist/assets/web-wTdV8Tem.js       8.47 kB │ gzip:   2.82 kB
+dist/assets/index-OSehfGU_.js   393.59 kB │ gzip: 125.07 kB
+
+✓ built in 264ms
+PASS: v1 localStorage migrates to stable booths and default empty stars without losing markers/items
+PASS: event setting icon stays transparent with no shadow; scrollbar hidden globally
+PASS: add menu, empty booth, normalized duplicate validation, photo, linked label and multi-line notes
+PASS: product belongs to fixed booth; yellow star is independent; favorite filtering and quick sold-out/undo preserve budget
+PASS: renaming booth and number preserves IDs and products; booth name is searchable
+PASS: sunshine theme is before cyberpunk and uses dark button text with themed product stripes
+PASS: booth data, star and sunshine theme survive reload
+PASS: v2 backup/restore contains booth photo, link, notes, stars, IDs and theme
+PASS: deleting booth retains all products and their stars under unassigned
+PASS: add menu also creates unassigned products; hidden scrollbars retain scrolling; no browser errors

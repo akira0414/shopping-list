@@ -1,0 +1,19 @@
+{
+  "version": "1.4.0",
+  "dataAndBackupFormat": 2,
+  "unitTests": 9,
+  "smallBrowserChecks": 10,
+  "migrationChecks": 3,
+  "webBuild": "passed",
+  "androidAssets": "synced",
+  "androidBuild": "not run",
+  "androidTests": "not run",
+  "emulatorStarted": false,
+  "stressTests": "not run",
+  "previewPort": 5173,
+  "previewPid": 3024,
+  "remaining": [
+    "Android compile and device verification require user confirmation",
+    "High-load checks require user confirmation"
+  ]
+}

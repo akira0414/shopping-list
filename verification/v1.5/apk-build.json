@@ -1,0 +1,12 @@
+{
+  "version": "1.5.0",
+  "versionCode": 4,
+  "applicationId": "com.doujin.shoppinglist",
+  "build": "assembleDebug passed",
+  "signature": "verified Android Debug",
+  "webAssets": "all match dist",
+  "bytes": 7433101,
+  "sha256": "ab02340b7fc76a8c3c09033aeb76ca56c1fa33d52fd419f6c0ad1e34f24f1572",
+  "emulatorStarted": false,
+  "deviceTests": "not run"
+}

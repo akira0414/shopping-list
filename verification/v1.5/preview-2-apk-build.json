@@ -1,0 +1,13 @@
+{
+  "version": "1.5.0-preview.2",
+  "versionCode": 5,
+  "applicationId": "com.doujin.shoppinglist.preview",
+  "build": "passed",
+  "signature": "verified, same as preview.1",
+  "webAssets": "match latest dist",
+  "starFilterTextColor": "#B58900, both states",
+  "emulatorStarted": false,
+  "deviceTest": "not run",
+  "bytes": 7433401,
+  "sha256": "70c768b28e20546d87097520f1033b12a769d4ae3db17dcf95db5cf0167d3eff"
+}

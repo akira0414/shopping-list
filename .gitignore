@@ -1,0 +1,26 @@
+node_modules/
+dist/
+android/.gradle/
+android/local.properties
+android/**/build/
+*.jks
+*.keystore
+
+# Build deliveries and local-only material
+*.apk
+*.aab
+*.apks
+*.zip
+.env
+.env.*
+!.env.example
+*.p12
+*.pem
+*.key
+*.log
+__pycache__/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+native-backup.json

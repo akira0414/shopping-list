@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "results": [
+    "failed v1 IndexedDB migration leaves current unchanged and does not partially commit snapshot",
+    "retry atomically stores v2 state and retains original v1 snapshot",
+    "invalid booth backup is rejected without changing saved data"
+  ]
+}

@@ -1,0 +1,1 @@
+PASS: edit prefills name/color; empty rejected; trimmed save keeps category ID and item links; reload persists; cancel and add reset verified

@@ -1,0 +1,30 @@
+{
+  "name": "doujin-shopping-list-recovered",
+  "version": "1.5.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "android:add": "cap add android",
+    "android:sync": "npm run build && cap sync android",
+    "android:open": "cap open android",
+    "test": "node --test tests/data.test.js",
+    "test:e2e": "node tests/run-browser-check.cjs",
+    "test:resilience": "node tests/resilience.cjs",
+    "test:android": "node tests/android.cjs"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.5.3",
+    "playwright": "^1.64.1",
+    "prettier": "^3.9.10",
+    "vite": "^8.3.5"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.5.3",
+    "@capacitor/core": "^8.5.3",
+    "@capacitor/filesystem": "^8.1.5",
+    "@capacitor/share": "^8.0.3"
+  }
+}

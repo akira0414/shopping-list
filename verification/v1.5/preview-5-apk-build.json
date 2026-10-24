@@ -1,0 +1,19 @@
+{
+  "version": "1.5.0-preview.5",
+  "versionCode": 8,
+  "label": "場購清單",
+  "applicationId": "com.doujin.shoppinglist.preview",
+  "signature": "verified; same as previous previews",
+  "build": "passed",
+  "webAssets": "all match latest dist",
+  "uiFixBrowserGroups": 14,
+  "emulatorStarted": false,
+  "deviceTests": "not run",
+  "pendingDeviceVerification": [
+    "Android back button",
+    "soft keyboard occlusion",
+    "system image picker",
+    "system share"
+  ],
+  "sha256": "23fd3e195be2bf68ca532457a805631a1050f9408f86af2907bddaabe7d13650"
+}

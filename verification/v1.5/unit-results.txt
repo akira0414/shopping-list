@@ -1,0 +1,18 @@
+✔ optional event URL validates, trims and survives backup without requiring old records to have it (4.8988ms)
+✔ backup round-trip preserves images, markers, order and settings (1.566ms)
+✔ partial, duplicate or foreign reorder cannot delete hidden items (10.8274ms)
+✔ reject unsupported, malformed and unrelated backups (1.73ms)
+✔ legacy repair preserves records and resolves stale category/current event (0.3164ms)
+✔ reject invalid names, money, statuses, markers and order (1.6161ms)
+✔ v1 migration creates stable event-scoped booths, preserves order/photos/markers and defaults stars (0.7188ms)
+✔ blank old booth numbers remain unassigned and empty booths round-trip (0.4893ms)
+✔ booth edits retain product IDs and stars; duplicates and cross-event links reject (0.8576ms)
+✔ six themes validate, sunshine is before cyberpunk, and linked booth URL is safe (1.9398ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 112.5215

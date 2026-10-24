@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "results": [
+    "corrupt legacy JSON is retained and startup never writes empty data",
+    "migration write failure retains original records; retry migrates successfully",
+    "transaction abort rejects replace and preserves old snapshot",
+    "JPEG/WebP resize and transparent PNG alpha are preserved; unsupported files reject",
+    "sorting mode scrolls outside handle, auto-scrolls at edge, cancels and recovers"
+  ]
+}

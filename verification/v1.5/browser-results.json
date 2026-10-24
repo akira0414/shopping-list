@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "results": [
+    "v1 localStorage migrates to stable booths and default empty stars without losing markers/items",
+    "event setting icon stays transparent with no shadow; scrollbar hidden globally",
+    "event URL validates safe protocols, saves and appears on event card",
+    "two direct icon actions and collapse/expand all groups retain products",
+    "direct add action, empty booth, normalized duplicate validation, photo, linked label and multi-line notes",
+    "product belongs to fixed booth; yellow star is independent; favorite filtering and quick sold-out/undo preserve budget",
+    "renaming booth and number preserves IDs and products; booth name is searchable",
+    "sunshine keeps dark button text; product stripes use category color and uncategorized gray",
+    "booth data, star and sunshine theme survive reload",
+    "v2 backup/restore contains booth photo, link, notes, stars, IDs and theme",
+    "deleting booth retains all products and their stars under unassigned",
+    "direct product action creates unassigned products; hidden scrollbars retain scrolling; no browser errors"
+  ],
+  "errors": []
+}

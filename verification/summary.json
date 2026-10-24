@@ -1,0 +1,16 @@
+{
+  "version": "1.3.0",
+  "package": "com.doujin.shoppinglist",
+  "webBuild": "passed",
+  "dataUnitTests": 5,
+  "browserFlows": 12,
+  "resilienceFlows": 5,
+  "androidInstrumentedTests": 3,
+  "androidBuild": "passed",
+  "apkSha256": "2723f705a065a41456cdfb30a277be754472e2e97d875eb803e1cdbe45788d93",
+  "remaining": [
+    "Other physical phones / third-party launchers",
+    "Full matrix of different wallpapers and system palettes",
+    "Original-key signed upgrade from the old APK"
+  ]
+}

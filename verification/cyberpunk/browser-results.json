@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "results": [
+    "Existing cyberpunk ID loads new dark palette; events and nav dark; no pulse",
+    "New/edit event forms use dark surfaces, readable inputs and purple/dark primary button",
+    "Three statuses, over-budget, category stripes, fixed star-filter colors and search/empty state preserved",
+    "Product add/edit, validation, upload area, native select and booth add/edit forms dark",
+    "Category edit/add retain readable colors and clear selected swatch ring",
+    "Settings, budget, theme selector and backup confirmation use complete dark palette; cancel safe",
+    "All five existing themes retain light cards/backgrounds; cyberpunk persists after reload",
+    "Empty event uses readable dark empty state; keyboard input focus uses purple outline",
+    "All theme text pairs >=4.5:1; focus/icons >=3:1; fixed selected star-filter exception recorded"
+  ],
+  "errors": [],
+  "emulatorStarted": false,
+  "stressTests": false
+}

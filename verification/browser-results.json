@@ -1,0 +1,18 @@
+{
+  "results": [
+    "legacy migration: 100 items, shared categories and markers preserved; localStorage retained",
+    "search, case insensitive booth match, category/status intersection, unchanged budget and disabled filtered sorting",
+    "purchase toggle, targeted undo and sold-out guard",
+    "100-item touch scroll and movement do not change purchase status or remove items",
+    "handle-only item reorder persists without losing hidden/category items",
+    "all five themes apply the exact primary color to purchased/pending/sold-out stripes",
+    "trim/negative validation, >2MB portrait resizing, transparent PNG, corrupt image, same-file reselection and failed-save retry retain the form/data",
+    "edit-mode delete action and photo persistence after reload",
+    "shared category deletion unlinks affected items and preserves all products",
+    "downloaded backup includes images/markers/order/settings; invalid and canceled restores preserve data; confirmed restore round-trips exactly",
+    "event switch resets search/filter and empty states",
+    "no uncaught browser errors"
+  ],
+  "errors": [],
+  "passed": true
+}

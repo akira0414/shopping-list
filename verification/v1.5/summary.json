@@ -1,0 +1,38 @@
+{
+  "version": "1.5.0",
+  "dataAndBackupFormat": 2,
+  "unitTests": 10,
+  "smallBrowserChecks": 12,
+  "migrationChecks": 3,
+  "webBuild": "passed",
+  "androidAssets": "synced",
+  "androidBuild": "assemblePreview passed",
+  "androidTests": "not run",
+  "emulatorStarted": false,
+  "stressTests": "not run",
+  "previewPort": 5173,
+  "previewPid": 3024,
+  "remaining": [
+    "Device verification not run; user confirmation required before emulator or Android tests",
+    "High-load checks require user confirmation"
+  ],
+  "previewVersion": "1.5.0-preview.5",
+  "previewVersionCode": 8,
+  "previewApplicationId": "com.doujin.shoppinglist.preview",
+  "apkSignature": "verified",
+  "apkAssets": "match latest dist",
+  "starFilterTextColor": "#B58900",
+  "appLabel": "場購清單",
+  "iconScale": 0.72,
+  "categoryEditCheck": "passed",
+  "cyberpunkBrowserGroups": 9,
+  "themeCheckIcon": "removed; selected border and aria-pressed kept",
+  "uiFixBrowserGroups": 14,
+  "uiFixes": [
+    "unsaved changes confirmation",
+    "product URL validation",
+    "event title layout",
+    "image dialog focus and scroll lock",
+    "44px touch targets"
+  ]
+}

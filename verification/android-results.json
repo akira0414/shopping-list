@@ -1,0 +1,18 @@
+{
+  "passed": [
+    "Android 16 APK launches offline with name 場購清單",
+    "real system photo picker selects 7,211,468-byte portrait PNG",
+    "photo resized to 960×1600, saved in IndexedDB and displayed after reload",
+    "Filesystem cache JSON includes original app data and uploaded photo",
+    "native Android share sheet opens for backup",
+    "native DocumentsUI Downloads selects JSON backup",
+    "confirmed restore preserves complete data and photo renders",
+    "Pixel Launcher monochrome icon is tinted in light and dark mode",
+    "3 Android instrumentation tests: label/package, same foreground/monochrome silhouette, adaptive circular safe area"
+  ],
+  "remaining": [
+    "Other physical phones / third-party launchers",
+    "Full matrix of different wallpapers and system palettes",
+    "Original-key signed upgrade from the old APK"
+  ]
+}

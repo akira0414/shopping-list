@@ -1,0 +1,5 @@
+PASS: corrupt legacy JSON is retained and startup never writes empty data
+PASS: migration write failure retains original records; retry migrates successfully
+PASS: transaction abort rejects replace and preserves old snapshot
+PASS: JPEG/WebP resize and transparent PNG alpha are preserved; unsupported files reject
+PASS: sorting mode scrolls outside handle, auto-scrolls at edge, cancels and recovers

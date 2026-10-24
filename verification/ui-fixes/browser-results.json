@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "results": [
+    "320px: long event title no longer overlaps settings; no page overflow",
+    "320px: clean close immediate; event edit discard confirmation keeps content when continuing",
+    "320px: backdrop/close/Escape share guard; Escape from confirmation resumes editing",
+    "320px: invalid URLs blocked with field error; failed save preserves form/data and guard; retry trims HTTPS into working href",
+    "320px: image preview locks background, traps forward/reverse Tab, Escape closes and restores focus/scroll",
+    "320px: product/booth actions >=44x44, star/edit aligned, long name/photo/category fit",
+    "320px: booth/category/budget changes all use the same discard guard",
+    "390px: long event title no longer overlaps settings; no page overflow",
+    "390px: clean close immediate; event edit discard confirmation keeps content when continuing",
+    "390px: backdrop/close/Escape share guard; Escape from confirmation resumes editing",
+    "390px: invalid URLs blocked with field error; failed save preserves form/data and guard; retry trims HTTPS into working href",
+    "390px: image preview locks background, traps forward/reverse Tab, Escape closes and restores focus/scroll",
+    "390px: product/booth actions >=44x44, star/edit aligned, long name/photo/category fit",
+    "390px: booth/category/budget changes all use the same discard guard"
+  ],
+  "errors": [],
+  "emulatorStarted": false,
+  "deviceVerification": "pending",
+  "stressTests": false
+}
