@@ -6,6 +6,7 @@ import android.webkit.WebView;
 
 public class MainActivity extends BridgeActivity {
     @Override public void onCreate(Bundle savedInstanceState) {
+        registerPlugin(AppInfoPlugin.class);
         super.onCreate(savedInstanceState);
         if (getBridge() != null) {
             WebView webView = getBridge().getWebView();

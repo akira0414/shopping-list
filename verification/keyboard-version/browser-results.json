@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "results": [
+    "Native enter button supports Tab/Shift+Tab and Enter without nested controls or duplicate card focus",
+    "Space also activates the native enter button",
+    "Settings and activity link keyboard actions stay independent; clicking card background still enters list",
+    "About page explicitly labels the web version"
+  ],
+  "emulatorStarted": false,
+  "nativeDeviceVerification": "pending"
+}

@@ -20,7 +20,7 @@ android {
         preview {
             initWith debug
             applicationIdSuffix ".preview"
-            versionNameSuffix "-preview.5"
+            versionNameSuffix "-preview.6"
             signingConfig signingConfigs.debug
             matchingFallbacks = ['debug']
             resValue "string", "app_name", "場購清單"
@@ -37,7 +37,7 @@ android {
 
 androidComponents {
     onVariants(selector().withBuildType("preview")) { variant ->
-        variant.outputs.each { output -> output.versionCode.set(8) }
+        variant.outputs.each { output -> output.versionCode.set(9) }
     }
 }
 

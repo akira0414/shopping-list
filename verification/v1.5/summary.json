@@ -16,8 +16,8 @@
     "Device verification not run; user confirmation required before emulator or Android tests",
     "High-load checks require user confirmation"
   ],
-  "previewVersion": "1.5.0-preview.5",
-  "previewVersionCode": 8,
+  "previewVersion": "1.5.0-preview.6",
+  "previewVersionCode": 9,
   "previewApplicationId": "com.doujin.shoppinglist.preview",
   "apkSignature": "verified",
   "apkAssets": "match latest dist",
@@ -34,5 +34,7 @@
     "event title layout",
     "image dialog focus and scroll lock",
     "44px touch targets"
-  ]
+  ],
+  "keyboardVersionBrowserChecks": 4,
+  "appInfoUnitTests": 3
 }

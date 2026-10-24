@@ -3453,3 +3453,10 @@ select {
     max-width: 100%;
   }
 }
+
+.event-enter-button {
+  min-height: 44px;
+}
+.app-version {
+  overflow-wrap: anywhere;
+}

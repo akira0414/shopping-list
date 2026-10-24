@@ -75,7 +75,6 @@ export function EventsPage({
                 <motion.div
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
-                  whileTap={{ scale: 0.98 }}
                   className={`event-card bg-white p-6 rounded-[32px] shadow-sm border-2 transition-all relative overflow-hidden group ${m ? "" : "border-transparent"}`}
                   style={{ borderColor: m ? theme.primary : void 0 }}
                   onClick={() => onSelect(f.id)}
@@ -152,7 +151,15 @@ export function EventsPage({
                                 </div>
                               }
                               {
-                                <div className="flex items-center gap-2 px-4 py-2 bg-gray-50 rounded-2xl group-hover:bg-white transition-colors">
+                                <button
+                                  type="button"
+                                  aria-label={`進入清單 ${f.name}`}
+                                  onClick={(event) => {
+                                    event.stopPropagation();
+                                    onSelect(f.id);
+                                  }}
+                                  className="event-enter-button flex items-center gap-2 px-4 py-2 bg-gray-50 rounded-2xl group-hover:bg-white transition-colors"
+                                >
                                   {
                                     <span className="text-xs font-black text-gray-400">
                                       {"進入清單"}
@@ -161,7 +168,7 @@ export function EventsPage({
                                   {
                                     <ChevronRightIcon className="w-4 h-4 text-gray-300" />
                                   }
-                                </div>
+                                </button>
                               }
                             </div>
                           }

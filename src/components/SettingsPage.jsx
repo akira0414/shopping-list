@@ -4,7 +4,8 @@ import {
   WalletIcon,
   ChevronRightIcon,
 } from "../vendor/runtime.js";
-import { APP_NAME, APP_VERSION } from "../lib/data.js";
+import { getAppInfo } from "../lib/appInfo.js";
+import { APP_NAME } from "../lib/data.js";
 export function SettingsPage({
   theme,
   defaultBudget,
@@ -14,6 +15,21 @@ export function SettingsPage({
   onImport,
   exporting,
 }) {
+  const [appInfo, setAppInfo] = React.useState(null);
+  const [versionError, setVersionError] = React.useState(false);
+  React.useEffect(() => {
+    let active = true;
+    getAppInfo()
+      .then((info) => {
+        if (active) setAppInfo(info);
+      })
+      .catch(() => {
+        if (active) setVersionError(true);
+      });
+    return () => {
+      active = false;
+    };
+  }, []);
   return (
     <section className="settings-page">
       <h1>設定</h1>
@@ -65,7 +81,13 @@ export function SettingsPage({
       </div>
       <div className="settings-card about-card">
         <h2>{APP_NAME}</h2>
-        <p>版本 {APP_VERSION}</p>
+        <p className="app-version" aria-live="polite">
+          {appInfo
+            ? `版本 ${appInfo.version}（${appInfo.platform === "web" ? "網頁版" : `建置 ${appInfo.build}`}）`
+            : versionError
+              ? "無法取得版本資訊，請重新開啟設定頁"
+              : "正在讀取版本資訊…"}
+        </p>
         <p className="muted">單機使用・資料保存在此裝置</p>
       </div>
     </section>

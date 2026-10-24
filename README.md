@@ -4,15 +4,15 @@
 
 ## 下載
 
-目前版本：**1.5.0-preview.5**（versionCode 8），支援 Android 7.0 以上。
+目前版本：**1.5.0-preview.6**（versionCode 9），支援 Android 7.0 以上。
 
 | 檔案 | 下載 |
 |---|---|
-| Android APK | [下載安裝檔](https://github.com/akira0414/shopping-list/releases/download/v1.5.0-preview.5/shopping-list-preview-1.5.0-5.apk) |
-| APK 壓縮包 | [下載並解壓安裝](https://github.com/akira0414/shopping-list/releases/download/v1.5.0-preview.5/shopping-list-preview-1.5.0-5-apk.zip) |
-| 完整專案 ZIP | [下載原始碼與中文說明](https://github.com/akira0414/shopping-list/releases/download/v1.5.0-preview.5/shopping-list-1.5.0-preview.5-project.zip) |
+| Android APK | [下載安裝檔](https://github.com/akira0414/shopping-list/releases/download/v1.5.0-preview.6/shopping-list-preview-1.5.0-6.apk) |
+| APK 壓縮包 | [下載並解壓安裝](https://github.com/akira0414/shopping-list/releases/download/v1.5.0-preview.6/shopping-list-preview-1.5.0-6-apk.zip) |
+| 完整專案 ZIP | [下載原始碼與中文說明](https://github.com/akira0414/shopping-list/releases/download/v1.5.0-preview.6/shopping-list-1.5.0-preview.6-project.zip) |
 
-[查看版本說明與檔案校驗碼](https://github.com/akira0414/shopping-list/releases/tag/v1.5.0-preview.5)
+[查看版本說明與檔案校驗碼](https://github.com/akira0414/shopping-list/releases/tag/v1.5.0-preview.6)
 
 ## 手機安裝
 
@@ -59,3 +59,10 @@ APK 位於 `android/app/build/outputs/apk/preview/app-preview.apk`。建置不�
 已完成瀏覽器檢查、網頁建置、Android 編譯及 APK 簽章／封裝驗證。Android 返回鍵、手機鍵盤遮擋、系統選圖與分享仍待實機驗證；紀錄位於 `verification/`。
 
 字型採用 [jf open 粉圓](https://github.com/justfont/open-huninn-font)，授權位於 `public/fonts/`；原 APK 還原資源保留於 `recovery/`。儲存庫不包含私人簽章金鑰、個人備份或建置快取。
+
+## 本版更新
+
+- 場次「進入清單」支援 Tab、Enter 與空白鍵；設定及活動網址可分開操作。
+- 關於頁：網頁顯示「版本 1.5.0（網頁版）」；Android 由已安裝套件讀取完整版本與建置編號，例如「版本 1.5.0-preview.6（建置 9）」。
+
+已整合至 preview.6，保留前版全部功能。鍵盤瀏覽器檢查、版本資訊單元測試與 Android 編譯已通過；原生版本資訊顯示仍待實機驗證，未啟動模擬器。

@@ -1,0 +1,22 @@
+{
+  "version": "1.5.0-preview.6",
+  "versionCode": 9,
+  "label": "場購清單",
+  "applicationId": "com.doujin.shoppinglist.preview",
+  "signature": "verified; same as previous previews",
+  "build": "passed",
+  "webAssets": "all match latest dist",
+  "versionPlugin": "present in classes.dex; compiled",
+  "keyboardVersionBrowserChecks": 4,
+  "appInfoUnitTests": 3,
+  "emulatorStarted": false,
+  "deviceTests": "not run",
+  "pendingDeviceVerification": [
+    "native version display",
+    "Android back button",
+    "soft keyboard occlusion",
+    "system image picker",
+    "system share"
+  ],
+  "sha256": "da802ef92accb644ae474a3da8af998d5cfdcbc5cce0d464860b9e8304408143"
+}
